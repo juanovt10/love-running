@@ -245,5 +245,18 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    color: #3a3a3a
-;}
+    color: #3a3a3a;
+}
+
+/* gallery */
+
+#photos {
+    clear: both; /* this is for the section to display BELOW the header */
+    line-height: 0; /* this removes any horizontal gaps between pictures */
+    column-count: 4;
+    column-gap: 0; /* this will remove the vertical gaps between pictures */
+ }
+
+ #photos > img {
+    width: 100%;
+ }
