@@ -212,3 +212,20 @@ hr {
     width: 100%;
     overflow: hidden; 
 }
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 20%; /* for each box */
+    height: 300px; /* this will be half of the sections above */
+    float: left;
+    padding: 30px 0 0 10px; 
+    text-align: center; 
+    border: 2px solid white;
+    box-sizing: border-box; /* without this value, the extra white border will make the total box larger than 100%, 
+    leading to putting the last box below. The box-sizing will make this responsive */
+}
+
+#times h2 {
+    color: #fafafa;
+}
