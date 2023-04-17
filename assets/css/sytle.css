@@ -206,9 +206,9 @@ hr {
 
 #times {
     background-image: url(../images/dublin-city.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat; /* so the image doesn't repeat to fill the void */
+    background-size: cover; /* for the image to cover the allocated dimensions of the div/section */
     background-position: center;
     width: 100%;
-    overflow: hidden;
+    overflow: hidden; 
 }
