@@ -291,8 +291,8 @@ footer {
     }
 
     #times > div {
-        width: 100%;
-        clear: both;
+        width: 100%; /* here this will make each times full width */
+        clear: both; /* this will make them stak vertically */
         height: 150px;
         padding: 0;
     }
@@ -301,7 +301,7 @@ footer {
         display: none;
     }
  }
- 
+
  /* for medium screen sizes from 950px wide and down */ 
 
 @media screen and (max-width: 950px) {
@@ -338,5 +338,15 @@ footer {
         padding: 0 20px;
     }
 
+    #photos {
+        column-count: 3;
+    }
 
+}
+
+@media screen and (max-width: 800px) {
+
+    #photos {
+        column-count: 2;
+    }
 }
